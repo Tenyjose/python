@@ -1,16 +1,16 @@
 from array import *
 p=0
-def search(nums,n):
+def search(a,n,s):
     global p
     start=0
-    stop=len(nums)
+    stop=n-1
     while start<stop:
         mid=(start+stop)//2
         p=mid
-        if nums[mid]==n:
+        if a[mid]==s:
             return True
         else:
-            if nums[mid]>n:
+            if a[mid]>n:
                 stop=mid-1
             else:
                 start=mid+1
@@ -25,7 +25,7 @@ s=int(input("Enter the number to be searched :: "))
 
 
 
-if search(a,n):
+if search(a,n,s)=True:
     print("FOUND @ ",p+1,"position")
 else:
    print("NOT FOUND :( ")
