@@ -24,8 +24,8 @@ print(a)
 s=int(input("Enter the number to be searched :: "))
 
 
-
-if search(a,n,s)=True:
+f=search(a,n,s)
+if f==True:
     print("FOUND @ ",p+1,"position")
 else:
    print("NOT FOUND :( ")
