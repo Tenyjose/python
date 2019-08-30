@@ -1,5 +1,5 @@
-a=int(input("Enter the number ")
-b=int(input("Enter another number ")
+a=int(input("Enter the number "))
+b=int(input("Enter another number "))
 
 try:
     print("RESOURCE OPENED")
